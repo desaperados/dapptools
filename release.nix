@@ -8,8 +8,8 @@ let
   ethereum-test-suite = x: x.fetchFromGitHub {
     owner = "ethereum";
     repo = "tests";
-    rev = "da6d391922cb0e3c6bda24871c89d33bc815c1dc";
-    sha256 = "06h3hcsm09kp4hzq5sm9vqkmvx2nvgbh5i788qnqh5iiz9fpaa9k";
+    rev = "2750addccdac71f6beb139170171488592fea917";
+    sha256 = "1xdqx0ggr99569g8jcsqzllgp6wpgyc2v19x8wg8racywc61x0p4";
   };
 
   # run all General State Tests, skipping tests that deal with "anomalies on the main network"
